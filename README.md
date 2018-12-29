@@ -24,5 +24,7 @@ Service file already contains file TableService, which is a field that operates 
 
 ### Usage:
 $model = $this->modelService->find(25);
+
 $model->setUpdated(new DateTime());
+
 $this->modelService->update($model);
